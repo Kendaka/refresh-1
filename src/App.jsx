@@ -1,16 +1,17 @@
 import React from 'react'
 import Header from './components/Header'
+import Note from './components/Note'
+import Footer from './components/Footer'
 import './App.css'
 
 function App() {
-
-  const luckyNumber = Math.floor(Math.random() * 10) + 1
-  const isLuckyNumber = luckyNumber >= 6 ? "Greater than" : "Less than"
-
   return (
-    <div>
+    <div className='bg-slate-100 min-h-screen flex flex-col'>
       <Header />
-      <p className='text-9xl'>Your lucky number is {isLuckyNumber}.</p>
+      <div className='flex-grow'>
+        <Note />
+      </div>
+      <Footer />
     </div>
   )
 }
