@@ -1,11 +1,15 @@
-import { useState } from 'react'
-
+import React from 'react'
 
 function App() {
-  const [count, setCount] = useState(0)
+
+  const name = "Kendrick"
+  const luckyNumber = Math.floor(Math.random() * 10) + 1
 
   return (
-    <div>Hello</div>
+    <div>
+      <h1>{name}</h1>
+      <p>Your lucky number is {luckyNumber}.</p>
+    </div>
   )
 }
 
