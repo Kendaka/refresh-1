@@ -5,7 +5,7 @@ import Footer from './components/Footer'
 import './App.css'
 
 function App() {
-  return (
+  return ( 
     <div className='bg-slate-100 min-h-screen flex flex-col'>
       <Header />
       <div className='flex-grow'>
