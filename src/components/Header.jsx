@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Header = () => {
-    const name = "Kendrick"
+    const name = "Keeper"
 
     return(
         <div className='bg-slate-700 flex items-start justify-start py-8 px-14'>
