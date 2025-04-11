@@ -19,7 +19,7 @@ function App() {
   return ( 
     <div className='bg-slate-100 min-h-screen flex flex-col'>
       <Header />
-      <div className='flex-grow'>
+      <div className='flex-grow p-4 flex flex-wrap justify-center gap-4'>
         {notes.map(createNotes)}
       </div>
       <Footer />
