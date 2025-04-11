@@ -1,32 +1,37 @@
 const notes = [
     {
       key: 1,
-      title: "Delegation",
+      title: "Typescript",
       content:
-        "Q. How many programmers does it take to change a light bulb? A. None – It’s a hardware problem"
+        "Study the basic of typescript"
     },
     {
       key: 2,
-      title: "Loops",
+      title: "Leetcode problem",
       content:
-        "How to keep a programmer in the shower forever. Show him the shampoo bottle instructions: Lather. Rinse. Repeat."
+        "Solve a leetcode problem and continue practicing dynamic programming"   
     },
     {
       key: 3,
-      title: "Arrays",
+      title: "Freelance and Apply",
       content:
-        "Q. Why did the programmer quit his job? A. Because he didn't get arrays."
+        "Try improving and applying small job that needs DEC and Full-Stack"
     },
     {
       key: 4,
-      title: "Hardware vs. Software",
+      title: "Study Next.js",
       content:
-        "What's the difference between hardware and software? You can hit your hardware with a hammer, but you can only curse at your software."
+        "Study the basic of Next.js and try to build a simple project with it and practice typesript with it."
     },
     {
       key: 5,
-      title: "Big ideas",
-      content: "Eat more sushi"
+      title: "Be Active on Github",
+      content: "Push more and create more projects on github and try to be active on it."
+    },
+    {
+      key: 6,
+      title: "Practice DEC skills",
+      content: "CC and DEC practice"
     }
   ];
   
