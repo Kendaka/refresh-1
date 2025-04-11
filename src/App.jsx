@@ -9,7 +9,7 @@ function App() {
   return ( 
     <div className='bg-slate-100 min-h-screen flex flex-col'>
       <Header />
-      <div className='flex-grow p-4 grid grid-cols-4 gap-4'>
+      <div className='flex-grow p-8 grid grid-cols-4 gap-4'>
         {notes.map((noteItem) => {
           return (
             <Note key={noteItem.key} title={noteItem.title} content={noteItem.content} />
