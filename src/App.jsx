@@ -15,6 +15,7 @@ function App() {
             <Note key={noteItem.key} title={noteItem.title} content={noteItem.content} />
           )
         })}
+        
       </div>
       <Footer />
     </div>
