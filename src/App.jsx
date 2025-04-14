@@ -22,10 +22,11 @@ function App() {
         onAdd={addNote}
       />
       <div className='flex-grow p-8 grid grid-cols-4 gap-4'>
-        {notes.map((noteItem) => {
-          return (
-            <Note key={noteItem.key} title={noteItem.title} content={noteItem.content} />
-          )
+        {notes.map((noteItem, index) => {
+          return <Note
+            title={noteItem.title}
+            content={noteItem.content}  
+          />
         })}
       </div>
       <Footer />
