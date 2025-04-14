@@ -5,7 +5,7 @@ const Note = (props) => {
     <div className='h-full p-2 relative'> 
       <div className='border border-slate-300 rounded-lg p-4 bg-amber-50 h-full flex flex-col max-h-80 overflow-y-auto'>
         <button 
-          className="absolute top-0 left-0 -translate-x-1 -translate-y-1 bg-red-500 text-white rounded-full w-6 h-6 flex items-center justify-center hover:bg-red-600 transition-colors"
+          className="absolute top-0 -right-2 -translate-x-1 -translate-y-1 text-red-500 rounded-full w-10 h-10 flex items-center justify-center transition-colors"
           onClick={props.onDelete}  
         >
           ×
