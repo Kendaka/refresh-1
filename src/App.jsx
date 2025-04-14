@@ -33,6 +33,8 @@ function App() {
       <div className='flex-grow p-8 grid grid-cols-4 gap-4'>
         {notes.map((noteItem, index) => {
           return <Note
+          key={index}
+            id={index}
             title={noteItem.title}
             content={noteItem.content}  
             onDelete={deleteNote}
