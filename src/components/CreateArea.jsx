@@ -28,7 +28,7 @@ function CreateArea(props) {
     }
   return (
     <div className="bg-slate-100 p-8 flex justify-center">
-      <form className="bg-amber-50 w-full max-w-md p-4 rounded-lg shadow-mdrelative">
+      <form className="bg-amber-50 w-full max-w-md p-4 rounded-lg shadow-md relative">
         <input
           name="title"
           placeholder="Title"
