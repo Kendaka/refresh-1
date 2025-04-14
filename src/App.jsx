@@ -1,16 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Header from './components/Header'
 import Note from './components/Note'
 import Footer from './components/Footer'
 import CreateArea from './components/CreateArea'
-import notes from './notes'
 import './App.css'
 
-const addNote = (note) => {
-
-}
-
 function App() {
+
+  const [notes, setNotes] = useState([])
+
+  const addNote = (newNote) => {
+    setNotes(prevNotes => {
+      return [...prevNotes, newNote];
+    })
+  }
+
   return ( 
     <div className='bg-slate-100 min-h-screen flex flex-col'>
       <Header />
