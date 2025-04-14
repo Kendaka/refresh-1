@@ -3,7 +3,6 @@ import Header from './components/Header'
 import Note from './components/Note'
 import Footer from './components/Footer'
 import CreateArea from './components/CreateArea'
-import './App.css'
 
 function App() {
 
