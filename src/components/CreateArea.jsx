@@ -17,7 +17,7 @@ function CreateArea() {
         />
         <button
           type="submit"
-          className="absolute -bottom-3 -right-3 bg-slate-600 hover:bg-slate-700 text-white rounded-full w-10 h-10 flex items-center justify-center shadow-md cursor-pointer transition-colors duration-200"
+          className="absolute -bottom-3 -right-3 bg-slate-600 hover:bg-slate-800 text-white rounded-full w-10 h-10 flex items-center justify-center shadow-md cursor-pointer transition-colors duration-200"
         >
           +
         </button>
