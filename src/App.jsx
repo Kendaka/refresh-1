@@ -6,11 +6,17 @@ import CreateArea from './components/CreateArea'
 import notes from './notes'
 import './App.css'
 
+const addNote = (note) => {
+
+}
+
 function App() {
   return ( 
     <div className='bg-slate-100 min-h-screen flex flex-col'>
       <Header />
-      <CreateArea />
+      <CreateArea 
+        onAdd={addNote}
+      />
       <div className='flex-grow p-8 grid grid-cols-4 gap-4'>
         {notes.map((noteItem) => {
           return (
